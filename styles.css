@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* General styles */
+body {
+    color: #333;
+}
+#head{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #3b0f31fa;
+    color: white;
+    padding: 20px 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+#link{
+    color: white;
+    align-item: column;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+span{
+    font-weight: bold;
+    
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background: white;
+}
+#song{
+    padding: 10px;
+    margin: 32px;
+    position: left;
+}
+
+footer {
+    background: #3b0f31fa;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: bottom;
+    align-item: bottom;
+    margin: 1000px 0 0 0;
+}
+
+iframe{
+    height: 250px;
+    width: 320px;
+}
+
+
+
+
+
+ok{I}
